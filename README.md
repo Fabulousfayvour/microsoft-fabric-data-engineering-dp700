@@ -9,7 +9,7 @@ The goal of this repo is to demonstrate practical implementation of **enterprise
 
 ## Learning Path
 - Microsoft Certified: Azure Data Fundamentals (DP-900) ✅ Completed
-- Microsoft Certified: Fabric Data Engineer Associate (DP-700) 🚧 In Progress
+- Microsoft Certified: Fabric Data Engineer Associate (DP-700)  In Progress
 
 ---
 
@@ -90,10 +90,8 @@ The goal of this repo is to demonstrate practical implementation of **enterprise
 
 ---
 
-## ⚠️ Errors & Troubleshooting
+##  Errors & Troubleshooting
 This repo also documents real-world issues encountered during learning, including:
-- Azure Data Lake Gen2 upgrade failures
-- Fabric ingestion errors
 - Spark notebook configuration issues
 
 This section demonstrates **problem-solving and troubleshooting skills**, which are critical for data engineering roles.
