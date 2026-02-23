@@ -56,10 +56,6 @@ The goal of this repo is to demonstrate practical implementation of **enterprise
 | Folder | Description |
 |--------|-------------|
 | `labs/` | Step-by-step lab documentation |
-| `notebooks/` | Spark notebooks for transformation |
-| `datasets/` | Sample datasets used |
-| `architecture/` | Architecture diagrams and explanations |
-| `screenshots/` | Evidence of Fabric workspace, pipelines, lakehouse |
 | `errors_and_troubleshooting/` | Errors faced and solutions |
 | `certifications/` | Microsoft Learn badges and progress |
 
