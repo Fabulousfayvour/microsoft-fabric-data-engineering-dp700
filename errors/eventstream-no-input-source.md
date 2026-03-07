@@ -18,6 +18,9 @@ Bicycles → Bicycle-data-stream     bikes-table
 
 The destination requires a valid input connection.
 
+
+<img width="676" height="483" alt="blurred publish" src="https://github.com/user-attachments/assets/d1a23c73-5d2a-4820-a660-e935e792961b" />
+
 ## Solution
 
 Connect the stream output to the destination.
@@ -37,6 +40,6 @@ Steps:
 
 After connecting the nodes and publishing the Eventstream, the pipeline executed successfully and streaming data was stored in the Eventhouse table.
 
-## Screenshot
 
-<img width="676" height="483" alt="blurred publish" src="https://github.com/user-attachments/assets/d1a23c73-5d2a-4820-a660-e935e792961b" />
+<img width="738" height="470" alt="published sorted" src="https://github.com/user-attachments/assets/7c61b3c9-c3ae-455f-935a-c9b81ae236c0" />
+
