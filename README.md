@@ -51,6 +51,48 @@ The goal of this repo is to demonstrate practical implementation of **enterprise
 
 ---
 
+##  Real-Time Intelligence in Microsoft Fabric
+
+In this topic, I learned how to **ingest, process, store, visualize, and act on data in motion** to generate insights from events as they happen.
+
+### Key Topics Covered
+
+- Using **Eventstream** for real-time data ingestion and processing
+- Working with **Eventhouse** to store and analyze real-time event data
+- Creating **real-time dashboards** for monitoring streaming data
+- Using **Activator** to trigger automated actions based on event conditions
+
+### Key Microsoft Fabric Components Used
+
+- Real-Time Hub
+- Eventstream
+- Eventhouse
+- KQL Database
+- Real-Time Dashboard
+- Activator
+
+---
+
+## Implementing a Data Warehouse with Microsoft Fabric
+
+This topic focused on building and managing a **modern cloud data warehouse using Microsoft Fabric**.
+
+### Key Topics Covered
+
+- Creating and querying data in a Fabric **Warehouse**
+- Loading data into a **Microsoft Fabric Data Warehouse**
+- Querying the warehouse using **SQL**
+- Monitoring warehouse performance and query execution
+- Implementing **security and access control**
+
+### Key Skills Practiced
+
+- Data ingestion into Fabric warehouses
+- Writing SQL queries for analytical workloads
+- Monitoring query performance
+- Securing warehouse objects and managing permissions
+
+  
 ## Repository Structure
 
 | Folder | Description |
@@ -63,26 +105,75 @@ The goal of this repo is to demonstrate practical implementation of **enterprise
 
 ##  Labs Included
 
-### 1️⃣ Data Ingestion
+###  Data Ingestion
 - Ingest data using Dataflows Gen2
 - Orchestrate ingestion with Fabric Pipelines
 - Real-time ingestion using Eventhouse
 
-### 2️⃣ Lakehouse Implementation
+###  Lakehouse Implementation
 - Create Workspace and Lakehouse
 - Load data into OneLake
 - Spark transformations
 
-### 3️⃣ Delta Lake Tables
+###  Delta Lake Tables
 - Create managed Delta tables
 - Time travel & ACID transactions
 
-### 4️⃣ Medallion Architecture
+### Medallion Architecture
 - Bronze → Silver → Gold transformation workflows
 
-### 5️⃣ Analytics
+###  Analytics
 - SQL queries on lakehouse
 - Power BI semantic models
+
+###  Real-Time Intelligence (RTI)
+
+#### Creating Eventstreams
+- Create and configure **Eventstreams**
+- Connect streaming data sources
+- Apply event transformations
+
+#### Eventhouse and Streaming Storage
+- Store streaming data in **Eventhouse**
+- Understand **KQL databases**
+- Manage real-time event data
+
+#### Querying Real-Time Data
+- Query streaming data using **KQL (Kusto Query Language)**
+- Filter and aggregate event data
+- Analyze event patterns in real time
+
+#### Real-Time Visualization
+- Create **Real-Time dashboards**
+- Monitor streaming data metrics
+- Visualize event trends and live data
+
+#### Automation with Activator
+- Create **Activator rules**
+- Detect conditions from streaming events
+- Trigger automated actions and alerts
+
+###  Fabric Data Warehouse
+
+#### Creating and Managing Warehouses
+- Create a **Microsoft Fabric Warehouse**
+- Manage warehouse objects (tables, schemas)
+- Configure warehouse settings
+
+#### Loading Data into Warehouse
+- Load data using **COPY INTO**
+- Load data using **Pipelines**
+- Perform batch data ingestion
+
+#### Querying and Monitoring Warehouse
+- Query warehouse data using **SQL**
+- Monitor query performance
+- Track warehouse usage and activity
+
+#### Securing the Warehouse
+- Implement **role-based access control (RBAC)**
+- Manage user permissions
+- Secure warehouse data and queries
 
 ---
 
@@ -90,7 +181,7 @@ The goal of this repo is to demonstrate practical implementation of **enterprise
 This repo also documents real-world issues encountered during learning, including:
 - Spark notebook configuration issues
 
-This section demonstrates **problem-solving and troubleshooting skills**, which are critical for data engineering roles.
+This **Errors** folder demonstrates **problem-solving and troubleshooting skills**, which are critical for data engineering role.
 
 ---
 
