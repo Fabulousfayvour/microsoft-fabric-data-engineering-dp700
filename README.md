@@ -85,6 +85,187 @@ This topic focused on building and managing a **modern cloud data warehouse usin
 - Monitoring warehouse performance and query execution
 - Implementing **security and access control**
 
+
+---
+
+## Managing a Fabric Environment
+
+Continuous Integration and Continuous Delivery (CI/CD)
+Monitoring Fabric Activities
+Securing Data Access
+Administering a Fabric Environment
+
+### Implement Continuous Integration and Continuous Delivery (CI/CD) in Microsoft Fabric
+
+##### Overview:
+Continuous Integration and Continuous Delivery (CI/CD) ensures that data solutions are developed, tested, and deployed efficiently and consistently.
+
+In Microsoft Fabric, CI/CD is implemented using:
+
+- Git Integration
+- Version Control
+- Deployment Pipelines
+- Fabric APIs
+
+These tools allow teams to collaborate on Fabric assets like Lakehouses, Notebooks, Pipelines, and Warehouses while maintaining version control and automated deployments.
+
+### Key Concepts
+#### **Continuous Integration (CI)**
+
+Continuous Integration is the process of automatically integrating code changes from multiple developers into a shared repository.
+
+##### Benefits include:
+- Early detection of errors
+- Improved collaboration
+- Consistent development environments
+
+#### **Continuous Delivery (CD)**
+
+Continuous Delivery ensures that validated changes can be deployed automatically to production environments.
+This reduces manual deployment errors and speeds up delivery.
+
+How CI/CD Works in Microsoft Fabric
+**Fabric supports CI/CD through:** Git Integration
+
+Fabric workspaces can be connected to Git repositories (GitHub or Azure DevOps) to track changes in:
+Notebooks, Data pipelines, Lakehouses, Warehouses, Reports
+This allows version history and collaborative development.
+
+##### Deployment Pipelines
+
+**Deployment pipelines** allow you to promote changes across environments: Development, Test, Production.
+Pipelines ensure consistent deployment of Fabric artifacts.
+
+**Fabric APIs**
+Fabric APIs enable automation of CI/CD workflows, allowing DevOps pipelines to deploy Fabric items programmatically.
+
+---
+
+## Monitor Activities in Microsoft Fabric
+
+**Overview:**
+Monitoring is essential for ensuring system reliability, performance, and operational health.
+
+Microsoft Fabric provides monitoring tools that allow administrators and engineers to track activities across the platform.
+
+**Key monitoring tools include:**
+- Monitoring Hub
+- Microsoft Fabric Activator
+
+ #### Monitoring Concepts
+
+**Monitoring helps organizations:** Track job execution, detect failures, measure system performance, trigger alerts and automated responses.
+
+#### Monitoring Hub in Microsoft Fabric
+The Monitoring Hub provides a centralized dashboard for monitoring: Data pipeline runs, notebook executions, Spark jobs, Data refresh activities
+
+**Features include:**
+i. Activity history
+ii. Job status tracking
+iii. Performance insights
+
+#### Microsoft Fabric Activator
+
+Microsoft Fabric Activator enables real-time data monitoring.
+It allows users to define conditions or patterns in streaming data and automatically trigger actions such as:
+i. Alerts
+ii. Notifications
+iii. Workflow automation
+
+---
+
+## Secure Data Access in Microsoft Fabric
+**Overview:**
+
+Security in Microsoft Fabric is implemented using a multi-layer security model that protects data at multiple levels.
+
+**Security is enforced through:**
+i. Workspace permissions
+ii. Item-level permissions
+iii. Granular access control
+iv. Fabric Permissions Model
+
+Fabric uses role-based access control (RBAC).
+Common workspace roles include:
+i. Admin
+ii. Member
+iii. Contributor
+iv. Viewer
+
+Each role defines the level of access to workspace resources.
+
+#### Workspace Permissions
+
+Workspace permissions determine who can access or manage resources within a workspace.
+
+Examples:
+
+Admin can manage settings and users.
+
+Contributors can create and modify artifacts.
+
+Item-Level Permissions
+
+Item-level permissions allow administrators to control access to specific resources, such as:
+i. Lakehouses
+ii. Warehouses
+iii. Reports
+iv. Notebooks
+
+#### Granular Security Controls
+
+Granular security enables fine-grained access control such as:
+- Row-level security
+- Column-level security
+- Dataset permissions
+
+This ensures users only see data relevant to them.
+
+---
+
+## Administer a Microsoft Fabric Environment
+**Overview**
+
+Microsoft Fabric is a Software-as-a-Service (SaaS) analytics platform that integrates data engineering, data science, and business intelligence into a unified environment.
+
+**Fabric administrators are responsible for:**
+
+i. Configuring platform features
+ii. Managing user access
+iii. Enforcing governance policies
+iv. Monitoring usage and capacity
+v. Fabric Administration Tasks
+
+
+The Admin Center provides centralized management tools for administrators.
+
+**It allows admins to:**
+- Manage tenant settings
+- Configure capacity
+- Monitor usage
+- Control feature access
+- Managing User Access
+
+
+**Administrators can control access to Fabric resources by:**
+- Assigning roles
+- Managing permissions
+- Restricting workspace creation
+This ensures proper governance across the organization.
+
+#### Data Governance in Fabric
+**Data governance ensures that data is:**
+- Secure
+- Compliant
+- Properly managed
+
+**Fabric governance features include:**
+
+- Data lineage
+- Access auditing
+- Sensitivity labels
+- Policy enforcement
+
 ### Key Skills Practiced
 
 - Data ingestion into Fabric warehouses
@@ -174,6 +355,21 @@ This topic focused on building and managing a **modern cloud data warehouse usin
 - Implement **role-based access control (RBAC)**
 - Manage user permissions
 - Secure warehouse data and queries
+
+### Managing a microsoft fabric environment
+
+####  Implement continuous integration and continuous delivery (CI/CD) in Microsoft Fabric
+- Define CI/CD and describe how it's implemented in Fabric.
+- Implement version control and Git integration.
+- Use deployment pipelines to automate the deployment process.
+
+#### Monitor activities in Microsoft Fabric
+- Apply monitoring concepts to Microsoft Fabric
+- Use Monitoring Hub in Microsoft Fabric 
+- Trigger actions using Activator in Microsoft Fabric
+
+#### Administer a Microsoft Fabric environment
+Microsoft Fabric is a SaaS solution for end-to-end data analytics. As an administrator, you can configure features and manage access to suit your organization's needs.
 
 ---
 
