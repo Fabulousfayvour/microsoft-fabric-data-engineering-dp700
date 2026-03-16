@@ -24,7 +24,6 @@ Assign a workspace on each deploymwnt stage and select a workspace that matches 
   - Select the check mark Assign for each deployment stage.
 
 
-
 ### STAGE 4: CREATE CONTENT
 Create an intem in your workspace. This can be created in the **Development** workspace:
 
