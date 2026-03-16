@@ -48,3 +48,22 @@ In Microsoft Fabric notebooks are used to run Spark code.
   - In the navigation pane, **select the Monitor page to view the monitoring hub and verify that the dataflow is in-progress**.
   - In the … menu for the Get Product Data dataflow, select Historical runs to view the run history for the dataflow
 
+--- 
+
+## TO MONITOR DATA PIPELINES IN MONITORING HUB 
+
+**Track pipeline execution and analyze activity logs.**
+
+#### STEPS:
+- Create a Data Pipeline in Fabric.
+- Execute the pipeline.
+- Open Monitoring Hub.
+- Locate the pipeline run.
+- Review execution details including:
+  - Status
+  - Duration
+  - Logs
+  - Expected Outcome
+
+**You can observe the execution history and diagnose pipeline issues.**
+
