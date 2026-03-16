@@ -8,8 +8,8 @@ The goal of this repo is to demonstrate practical implementation of **enterprise
 ---
 
 ## Learning Path
-- Microsoft Certified: Azure Data Fundamentals (DP-900) ✅ Completed
-- Microsoft Certified: Fabric Data Engineer Associate (DP-700)  In Progress
+- Microsoft Certified: Azure Data Fundamentals (DP-900) ✅ Completed https://github.com/Fabulousfayvour/azure-data-fundamentals-dp900
+- Microsoft Certified: Fabric Data Engineer Associate (DP-700)  ✅ Completed
 
 ---
 
