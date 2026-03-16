@@ -377,7 +377,7 @@ Microsoft Fabric is a SaaS solution for end-to-end data analytics. As an adminis
 This repo also documents real-world issues encountered during learning, including:
 - Spark notebook configuration issues
 
-This **Errors** folder demonstrates **problem-solving and troubleshooting skills**, which are critical for data engineering role.
+The **Errors** folder demonstrates **problem-solving and troubleshooting skills**, which are critical for data engineering role. https://github.com/Fabulousfayvour/microsoft-fabric-data-engineering-dp700/tree/main/errors
 
 ---
 
